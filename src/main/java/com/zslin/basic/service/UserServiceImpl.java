@@ -74,7 +74,7 @@ public class UserServiceImpl {
                 ac.setAppVersion("V 1.0");
                 ac.setAppName("系统名称");
                 ac.setIndexPage("/");
-                ac.setAdminEmail("zsl131@qq.com");
+                ac.setAdminEmail("690328661@qq.com");
                 ac.setInitFlag("1"); appConfigService.save(ac);
             } else {
                 ac.setCreateDate(sdf.format(new Date()));
