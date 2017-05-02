@@ -29,7 +29,7 @@ public @interface AdminAuth {
 	/** 序号 */
 	public int orderNum() ;
 	
-	/** 父节点是否是实体，1：是；其他：否，如果不是实体则需要检测是否存在，不存在则添加 */
+	/** 父节点是否是实体，1：是；其他：否，如果不是实体则需要检测是否存在， 不存在则添加 */
 	public int pentity() default 1;
 	
 	/** 父节点的序号 */
